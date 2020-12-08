@@ -1,0 +1,111 @@
+/*Colors and fonts */
+body {
+	background: #e8e8e8;
+	color: #30475e ;
+	font-family: Helvetica;
+	font-size: 17px;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+h1,h2,h3{font-family: Roboto
+	font-weight:500;
+}
+
+h1{margin-left: auto;
+  margin-right: auto;
+	color: #f05454;
+	font-size: 32px;
+}
+.img-circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	border-radius: 50%;
+}
+h2{	color: #30475e;
+	font-size: 24px;
+}
+p{color :#222831;
+	font-family: Lora;
+  padding: 15px;
+}
+a {
+  color: #30475e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:black;
+}
+
+
+.btn-blue {background-color: #f05454;
+color:white;
+margin-left: auto;
+margin-right: auto;
+border-radius: 4px;
+padding: 10px;
+transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+  color:white;
+  background-color:black;
+}
+
+
+.card-white { background: white;
+	padding: 25px;
+	border-radius: 4px;
+	width:900px;
+	margin:20px auto auto;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+ul{list-style: none;
+	text-align: center;
+	padding-left: 0px
+}
+
+li{display: inline;
+padding: 10px;}
+
+#mainskills{background: white;
+	padding: 0px;
+	width:900px;
+	margin:0px auto;
+	box-shadow:0px 0px 0px
+			}
+#social{background: white;
+	padding: 0px;
+	width:900px;
+	margin:0px auto;
+	box-shadow:0px 0px 0px;}
+
+i{font-size: 50px;
+}
+
+@media (max-width:960px) {
+  .container{
+    width: 700px;
+  }
+}
+@media (max-width:720px) {
+  .container{
+    width: 500px;
+  }
+}
+
+
+@media (max-width:540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.https://colorhunt.co/palette/220248
